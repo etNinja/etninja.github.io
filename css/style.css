@@ -73,6 +73,31 @@
   margin: 0 auto;
 }
 
+.pageup {
+  cursor: pointer;
+  padding: 9px 5px 5px 7px;
+  position: fixed;
+  bottom: 20vh;
+  right: 0;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+  -webkit-transition: all .2s;
+  -o-transition: all .2s;
+  transition: all .2s;
+}
+
+.pageup:hover {
+  background-color: #e5e5e5;
+}
+
+.pageup_img {
+  width: 40px;
+}
+
+.pageup_hide {
+  display: none;
+}
+
 .no-webp .promo {
   background: url(../img/mainBg.jpg) no-repeat 20%/cover; }
 
